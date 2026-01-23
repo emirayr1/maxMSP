@@ -1,0 +1,23 @@
+{
+	"preset_data" : [ 		{
+			"number" : 1,
+			"data" : [ 5, "obj-10", "toggle", "int", 0, 5, "obj-68", "filtergraph~", "nfilters", 1, 9, "obj-68", "filtergraph~", "setoptions", 0, 1, 1, 0, 0, 8, "obj-68", "filtergraph~", "params", 0, 565.62945556640625, 1.119306921958923, 0.585959851741791 ]
+		}
+, 		{
+			"number" : 2,
+			"data" : [ 5, "obj-10", "toggle", "int", 0, 5, "obj-68", "filtergraph~", "nfilters", 1, 9, "obj-68", "filtergraph~", "setoptions", 0, 2, 1, 0, 0, 8, "obj-68", "filtergraph~", "params", 0, 1406.78759765625, 1.056508421897888, 0.585959851741791 ]
+		}
+, 		{
+			"number" : 3,
+			"data" : [ 5, "obj-10", "toggle", "int", 0, 5, "obj-68", "filtergraph~", "nfilters", 1, 9, "obj-68", "filtergraph~", "setoptions", 0, 5, 1, 0, 0, 8, "obj-68", "filtergraph~", "params", 0, 533.025146484375, 7.572784900665283, 0.788731515407562 ]
+		}
+, 		{
+			"number" : 4,
+			"data" : [ 5, "obj-10", "toggle", "int", 0, 5, "obj-68", "filtergraph~", "nfilters", 1, 9, "obj-68", "filtergraph~", "setoptions", 0, 5, 1, 0, 0, 8, "obj-68", "filtergraph~", "params", 0, 580.3680419921875, 0.107783459126949, 2.076859474182129 ]
+		}
+, 		{
+			"number" : 5,
+			"data" : [ 5, "obj-10", "toggle", "int", 0, 5, "obj-68", "filtergraph~", "nfilters", 1, 9, "obj-68", "filtergraph~", "setoptions", 0, 5, 1, 0, 0, 8, "obj-68", "filtergraph~", "params", 0, 5298.50732421875, 7.695067882537842, 1.406556844711304 ]
+		}
+ ]
+}
