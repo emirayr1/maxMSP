@@ -55,8 +55,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1173.730754852294922, 318.461568832397461, 301.538490295410156, 98.0 ],
-					"presentation_linecount" : 6,
+					"patching_rect" : [ 1173.730754852294922, 318.461568832397461, 303.0, 98.0 ],
 					"text" : "geri dön ve başlat butonlarına basınca objeleri gizleyip geri açıyorum ve başka bir sayfaya geçme efektini yaratıyorum"
 				}
 
@@ -71,7 +70,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1216.0, 657.862817525863647, 227.0, 167.0 ],
-					"presentation_linecount" : 7,
 					"text" : "her bilgisayarda çalışsın diye dosya yolunu thispatcher'dan aldığım path bilgisine göre işleyip gerekli yerlere gönderiyorum"
 				}
 
@@ -86,7 +84,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1527.692453384399414, 1518.46168327331543, 227.0, 144.0 ],
-					"presentation_linecount" : 6,
 					"text" : "doğru ve yanlış soruları kaydedip zl.sum ile toplam doğru sayısını result_text objesine yazdırıyorum"
 				}
 
@@ -101,7 +98,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1861.0, 1321.0, 227.0, 75.0 ],
-					"presentation_linecount" : 3,
 					"text" : "doğruysa yeşil ve doğru, yanlışsa yanlış ve kırmızı yap"
 				}
 
@@ -115,7 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 672.307756423950195, 1215.0, 224.0, 121.0 ],
+					"patching_rect" : [ 672.307756423950195, 1215.0, 227.0, 121.0 ],
 					"text" : "preset dosyasını proje dosyasının içerisine kaydettim ve  program her açıldığında oradan yüklüyorum"
 				}
 
@@ -127,15 +123,15 @@
 					"fontface" : 1,
 					"fontsize" : 18.0,
 					"id" : "obj-18",
-					"linecount" : 12,
+					"linecount" : 11,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 36.817074537277222, 1154.545534372329712, 92.0, 255.0 ],
+					"patching_rect" : [ 36.817074537277222, 1154.545534372329712, 97.0, 234.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 739.701230764389038, 629.0, 420.0, 69.0 ],
-					"text" : "Ses oynatıcısından sesi oynatın ve ses etki eden ekolayzer görüntüsünü tespit etmeye çalışın ",
+					"text" : "Ses oynatıcısından sesi oynatın ve sese etki eden ekolayzer görüntüsünü tespit etmeye çalışın ",
 					"textjustification" : 1,
 					"varname" : "info_text"
 				}
@@ -228,13 +224,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-122",
-					"linecount" : 7,
+					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1157.5, 1743.0, 54.0, 105.0 ],
-					"text" : "script sendbox result_text text \"2 Doğru 3 Yanlış\""
+					"patching_rect" : [ 1157.5, 1743.0, 57.0, 91.0 ],
+					"text" : "script sendbox result_text text \"3 Doğru 2 Yanlış\""
 				}
 
 			}
@@ -451,7 +447,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 722.0, 319.0, 455.402461528778076, 122.0 ],
 					"rounded" : 50.0,
-					"text" : "2 Doğru 3 Yanlış",
+					"text" : "3 Doğru 2 Yanlış",
 					"texton" : "",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "result_text"
@@ -861,7 +857,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "",
-					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 24.0,
 					"hidden" : 1,
@@ -876,7 +872,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 854.579277276992798, 490.205801725387573, 190.24390697479248, 48.780488967895508 ],
 					"rounded" : 50.0,
-					"text" : "Yanlış Cevap",
+					"text" : "Doğru Cevap",
 					"texton" : "",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "result_btn"
@@ -891,7 +887,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1020.470568180084229, 1369.117620944976807, 50.0, 22.0 ],
-					"text" : "0"
+					"text" : "1"
 				}
 
 			}
@@ -2734,7 +2730,7 @@
 
 			}
  ],
-		"originid" : "pat-88",
+		"originid" : "pat-6",
 		"parameters" : 		{
 			"obj-63::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-63::obj-35" : [ "[5]", "Level", 0 ],
